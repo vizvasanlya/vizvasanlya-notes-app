@@ -1,0 +1,10 @@
+{
+  "name": "vizvasanlya-notes-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 5173"
+  },
+  "keywords": ["notes-app", "dashboard", "starter"],
+  "license": "MIT"
+}
