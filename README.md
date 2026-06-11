@@ -1,14 +1,15 @@
-# Notes App
+# Smart Notes Workspace
 
-A lightweight notes workspace with tags, quick capture, search-friendly summaries, and pinned topics.
+Capture notes, organize topics, pin important references, and quickly retrieve meeting summaries.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ A lightweight notes workspace with tags, quick capture, search-friendly summarie
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.

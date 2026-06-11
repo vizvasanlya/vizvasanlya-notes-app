@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-notes-app",
+  "title": "Smart Notes Workspace",
+  "subtitle": "Capture, tags, pins, and retrieval",
+  "eyebrow": "Productivity MVP",
+  "initial": "NT",
+  "accent": "#0f766e",
+  "description": "Capture notes, organize topics, pin important references, and quickly retrieve meeting summaries.",
+  "metrics": [
+    {
+      "label": "Total notes",
+      "delta": "Capture",
+      "type": "count"
+    },
+    {
+      "label": "Pinned notes",
+      "delta": "Focus",
+      "type": "count"
+    },
+    {
+      "label": "Tagged rate",
+      "delta": "Organized",
+      "type": "percent"
+    },
+    {
+      "label": "Critical notes",
+      "delta": "Review",
+      "type": "count"
+    },
+    {
+      "label": "Knowledge value",
+      "delta": "Reuse",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Pinned",
+    "Updated",
+    "Tagged",
+    "Active",
+    "Archive"
+  ],
+  "resources": [
+    {
+      "title": "Product ideas backlog",
+      "owner": "Product",
+      "status": "Pinned",
+      "priority": "High",
+      "dueDate": "2026-06-20",
+      "value": 4200,
+      "detail": "Collect feature ideas and validation notes.",
+      "notes": "Review with design before roadmap sync."
+    },
+    {
+      "title": "Weekly meeting summary",
+      "owner": "PM",
+      "status": "Updated",
+      "priority": "Medium",
+      "dueDate": "2026-06-14",
+      "value": 1200,
+      "detail": "Action items and decisions from weekly sync.",
+      "notes": "Assign owners for open tasks."
+    },
+    {
+      "title": "Reading list",
+      "owner": "Research",
+      "status": "Tagged",
+      "priority": "Low",
+      "dueDate": "2026-06-28",
+      "value": 800,
+      "detail": "Articles grouped by topic and priority.",
+      "notes": "Summarize top three insights."
+    },
+    {
+      "title": "Launch checklist",
+      "owner": "Launch",
+      "status": "Active",
+      "priority": "Critical",
+      "dueDate": "2026-06-16",
+      "value": 6800,
+      "detail": "Pre-launch tasks tracked in one place.",
+      "notes": "Pin final go/no-go criteria."
+    },
+    {
+      "title": "Customer interview notes",
+      "owner": "Research",
+      "status": "Tagged",
+      "priority": "High",
+      "dueDate": "2026-06-18",
+      "value": 5400,
+      "detail": "Synthesis from discovery calls.",
+      "notes": "Extract recurring pain points."
+    },
+    {
+      "title": "Old project archive",
+      "owner": "Admin",
+      "status": "Archive",
+      "priority": "Low",
+      "dueDate": "2026-07-05",
+      "value": 300,
+      "detail": "Reference notes from completed projects.",
+      "notes": "Keep searchable but out of active view."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Pinned launch checklist.",
+      "at": "2026-06-10T09:40:00Z"
+    },
+    {
+      "text": "Added interview synthesis.",
+      "at": "2026-06-06T12:00:00Z"
+    }
+  ]
+}
